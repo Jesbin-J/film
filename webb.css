@@ -1,0 +1,110 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+    display: flex;
+    flex-flow: column;
+    background-image: url(glowing-lines-human-heart-3d-shape-dark-background-generative-ai.jpg);
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    
+}   
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;            
+    padding: 10px; 
+    width: 100%;
+    
+    backdrop-filter: blur(2px);
+
+             
+}
+.t{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: bolder;
+
+    padding: 20PX;
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 25px;
+    padding: 6px;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: rgb(255, 78, 107);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    
+
+}
+.wm{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 10px;
+    height: 200px;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: 1px 10px 6px;
+    
+    
+
+}
+.slider{
+    display: flex;
+    height: 20vw;
+    justify-content: center;
+    padding: 2%;
+    gap: 5%;
+    transition: ease-in-out 0.2s;
+    
+    
+}
+.sld{
+    width: 13%;
+    background-color: bisque;
+    transition: ease-in-out 0.2s;
+    border-radius: 10px;
+    
+    
+}
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    
+        
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(255, 255, 255);
+    font-family: fantasy;
+}
+.sld:hover{
+    width: 23%;
+    
+}
